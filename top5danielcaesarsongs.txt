@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Daniel Caesar Songs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            margin: 20px;
+        }
+        .song-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .song {
+            background: #333;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+        .song img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .song:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>My Top 5 Daniel Caesar Songs</h1>
+    <div class="song-container">
+        <div class="song">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Daniel_Caesar_-_Best_Part.png" alt="Best Part">
+            <h3>Best Part</h3>
+            <p>Featuring H.E.R., a soulful love ballad.</p>
+        </div>
+        <div class="song">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/91/Daniel_Caesar_-_Japanese_Denim.png" alt="Japanese Denim">
+            <h3>Japanese Denim</h3>
+            <p>A dreamy, emotional R&B song.</p>
+        </div>
+        <div class="song">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Daniel_Caesar_-_Get_You.png" alt="Get You">
+            <h3>Get You</h3>
+            <p>A smooth, romantic classic.</p>
+        </div>
+        <div class="song">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/63/Daniel_Caesar_-_Case_Study_01.png" alt="Cyanide">
+            <h3>Cyanide</h3>
+            <p>Laid-back Caribbean-inspired vibes.</p>
+        </div>
+        <div class="song">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Daniel_Caesar_-_Freudian.png" alt="We Find Love">
+            <h3>We Find Love</h3>
+            <p>A heartfelt song about love and loss.</p>
+        </div>
+    </div>
+</body>
+</html>
